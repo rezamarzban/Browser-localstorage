@@ -5,7 +5,7 @@ Note: JavaScript localstorage handler can not access cross domain localstorage. 
 Or write below script in the browser address bar when you see a website domain:
 
 
-JavaScript: fetch("https://raw.githubusercontent.com/marzban2030/Browser-localstorage/main/index.html").then(response => { document.write(response); });
+javascript: fetch("https://raw.githubusercontent.com/marzban2030/Browser-localstorage/main/index.html").then(response => { document.write(response); });
 
 List of compatible browsers from https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage that support localStorage:
 ![image](https://github.com/marzban2030/Browser-localstorage/raw/main/localStorageBrowsers.jpg)
